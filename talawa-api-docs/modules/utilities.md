@@ -13,6 +13,7 @@
 - [createAccessToken](utilities.md#createaccesstoken)
 - [createRefreshToken](utilities.md#createrefreshtoken)
 - [deleteImage](utilities.md#deleteimage)
+- [isAuthCheck](utilities.md#isauthcheck)
 - [mailer](utilities.md#mailer)
 - [revokeRefreshToken](utilities.md#revokerefreshtoken)
 - [superAdminCheck](utilities.md#superadmincheck)
@@ -59,6 +60,12 @@ ___
 ### deleteImage
 
 Re-exports [deleteImage](utilities_deleteImage.md#deleteimage)
+
+___
+
+### isAuthCheck
+
+Re-exports [isAuthCheck](utilities_isAuthCheck.md#isauthcheck)
 
 ___
 

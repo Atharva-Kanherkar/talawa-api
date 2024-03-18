@@ -34,11 +34,12 @@ The following checks are done:
 1. If the user exists
 3. If the asignee exists
 4. If the actionItemCategory exists
-5. If the asignee is a member of the organization
-6. If the user is a member of the organization
-7. If the event exists (if action item related to an event)
-8. If the user is authorized.
+5. If the actionItemCategory is disabled
+6. If the asignee is a member of the organization
+7. If the user is a member of the organization
+8. If the event exists (if action item related to an event)
+9. If the user is authorized.
 
 #### Defined in
 
-[src/resolvers/Mutation/createActionItem.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/resolvers/Mutation/createActionItem.ts#L32)
+[src/resolvers/Mutation/createActionItem.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/resolvers/Mutation/createActionItem.ts#L34)

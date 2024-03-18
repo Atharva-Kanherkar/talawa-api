@@ -11,6 +11,10 @@
 - [\_id](models_EventAttendee.InterfaceEventAttendee.md#_id)
 - [checkInId](models_EventAttendee.InterfaceEventAttendee.md#checkinid)
 - [eventId](models_EventAttendee.InterfaceEventAttendee.md#eventid)
+- [isCheckedIn](models_EventAttendee.InterfaceEventAttendee.md#ischeckedin)
+- [isCheckedOut](models_EventAttendee.InterfaceEventAttendee.md#ischeckedout)
+- [isInvited](models_EventAttendee.InterfaceEventAttendee.md#isinvited)
+- [isRegistered](models_EventAttendee.InterfaceEventAttendee.md#isregistered)
 - [userId](models_EventAttendee.InterfaceEventAttendee.md#userid)
 
 ## Properties
@@ -21,7 +25,7 @@
 
 #### Defined in
 
-[src/models/EventAttendee.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/EventAttendee.ts#L8)
+[src/models/EventAttendee.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/EventAttendee.ts#L9)
 
 ___
 
@@ -31,7 +35,7 @@ ___
 
 #### Defined in
 
-[src/models/EventAttendee.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/EventAttendee.ts#L11)
+[src/models/EventAttendee.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/EventAttendee.ts#L12)
 
 ___
 
@@ -41,7 +45,47 @@ ___
 
 #### Defined in
 
-[src/models/EventAttendee.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/EventAttendee.ts#L10)
+[src/models/EventAttendee.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/EventAttendee.ts#L11)
+
+___
+
+### isCheckedIn
+
+• **isCheckedIn**: `boolean`
+
+#### Defined in
+
+[src/models/EventAttendee.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/EventAttendee.ts#L15)
+
+___
+
+### isCheckedOut
+
+• **isCheckedOut**: `boolean`
+
+#### Defined in
+
+[src/models/EventAttendee.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/EventAttendee.ts#L16)
+
+___
+
+### isInvited
+
+• **isInvited**: `boolean`
+
+#### Defined in
+
+[src/models/EventAttendee.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/EventAttendee.ts#L13)
+
+___
+
+### isRegistered
+
+• **isRegistered**: `boolean`
+
+#### Defined in
+
+[src/models/EventAttendee.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/EventAttendee.ts#L14)
 
 ___
 
@@ -51,4 +95,4 @@ ___
 
 #### Defined in
 
-[src/models/EventAttendee.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/EventAttendee.ts#L9)
+[src/models/EventAttendee.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/EventAttendee.ts#L10)

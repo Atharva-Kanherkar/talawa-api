@@ -28,7 +28,7 @@ type if not present before in the intersection type.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `where` | `undefined` \| [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<`Partial`\<[`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) & [`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput) & [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) & [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) & [`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput)\>\> | an object that contains properties that can be used to filter out documents. |
+| `where` | `undefined` \| [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<`Partial`\<[`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) & [`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput) & [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) & [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) & [`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput) & [`ActionItemWhereInput`](types_generatedGraphQLTypes.md#actionitemwhereinput)\>\> | an object that contains properties that can be used to filter out documents. |
 
 #### Returns
 
@@ -48,4 +48,4 @@ const inputArgs = getWhere\<InterfaceEvent\>(args.where);
 
 #### Defined in
 
-[src/resolvers/Query/helperFunctions/getWhere.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/resolvers/Query/helperFunctions/getWhere.ts#L24)
+[src/resolvers/Query/helperFunctions/getWhere.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/resolvers/Query/helperFunctions/getWhere.ts#L25)

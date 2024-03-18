@@ -8,6 +8,10 @@
 
 - [usersAssignedTo](resolvers_UserTag_usersAssignedTo.md#usersassignedto)
 
+### Functions
+
+- [parseCursor](resolvers_UserTag_usersAssignedTo.md#parsecursor)
+
 ## Variables
 
 ### usersAssignedTo
@@ -16,4 +20,24 @@
 
 #### Defined in
 
-[src/resolvers/UserTag/usersAssignedTo.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/resolvers/UserTag/usersAssignedTo.ts#L12)
+[src/resolvers/UserTag/usersAssignedTo.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/resolvers/UserTag/usersAssignedTo.ts#L17)
+
+## Functions
+
+### parseCursor
+
+▸ **parseCursor**(`«destructured»`): [`ParseGraphQLConnectionCursorResult`](utilities_graphQLConnection_parseGraphQLConnectionArguments.md#parsegraphqlconnectioncursorresult)\<`string`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `«destructured»` | [`ParseGraphQLConnectionCursorArguments`](utilities_graphQLConnection_parseGraphQLConnectionArguments.md#parsegraphqlconnectioncursorarguments) & \{ `tagId`: `string` \| `ObjectId`  \} |
+
+#### Returns
+
+[`ParseGraphQLConnectionCursorResult`](utilities_graphQLConnection_parseGraphQLConnectionArguments.md#parsegraphqlconnectioncursorresult)\<`string`\>
+
+#### Defined in
+
+[src/resolvers/UserTag/usersAssignedTo.ts:93](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/resolvers/UserTag/usersAssignedTo.ts#L93)

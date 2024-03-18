@@ -9,8 +9,6 @@
 ### Properties
 
 - [\_id](models_CheckIn.InterfaceCheckIn.md#_id)
-- [allotedRoom](models_CheckIn.InterfaceCheckIn.md#allotedroom)
-- [allotedSeat](models_CheckIn.InterfaceCheckIn.md#allotedseat)
 - [createdAt](models_CheckIn.InterfaceCheckIn.md#createdat)
 - [eventAttendeeId](models_CheckIn.InterfaceCheckIn.md#eventattendeeid)
 - [feedbackSubmitted](models_CheckIn.InterfaceCheckIn.md#feedbacksubmitted)
@@ -25,27 +23,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/CheckIn.ts#L13)
-
-___
-
-### allotedRoom
-
-• **allotedRoom**: `string`
-
-#### Defined in
-
-[src/models/CheckIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/CheckIn.ts#L16)
-
-___
-
-### allotedSeat
-
-• **allotedSeat**: `string`
-
-#### Defined in
-
-[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/CheckIn.ts#L17)
+[src/models/CheckIn.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/CheckIn.ts#L14)
 
 ___
 
@@ -55,7 +33,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/CheckIn.ts#L19)
+[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/CheckIn.ts#L18)
 
 ___
 
@@ -65,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/CheckIn.ts#L14)
+[src/models/CheckIn.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/CheckIn.ts#L15)
 
 ___
 
@@ -75,7 +53,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/CheckIn.ts#L18)
+[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/CheckIn.ts#L17)
 
 ___
 
@@ -85,7 +63,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/CheckIn.ts#L15)
+[src/models/CheckIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/CheckIn.ts#L16)
 
 ___
 
@@ -95,4 +73,4 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/CheckIn.ts#L20)
+[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/models/CheckIn.ts#L19)

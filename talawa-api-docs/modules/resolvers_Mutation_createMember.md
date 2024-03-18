@@ -31,11 +31,11 @@ context of entire application
 **`Remarks`**
 
 The following checks are done:
-1. Checks whether current user making the request is an superAdmin
+1. Checks whether current user making the request is an superAdmin or an Admin.
 2. If the organization exists
 3. Checks whether curent user exists.
 4. Checks whether user with _id === args.input.userId is already an member of organization..
 
 #### Defined in
 
-[src/resolvers/Mutation/createMember.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/resolvers/Mutation/createMember.ts#L24)
+[src/resolvers/Mutation/createMember.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/resolvers/Mutation/createMember.ts#L24)

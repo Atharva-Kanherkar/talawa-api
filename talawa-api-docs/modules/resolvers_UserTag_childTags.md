@@ -8,6 +8,10 @@
 
 - [childTags](resolvers_UserTag_childTags.md#childtags)
 
+### Functions
+
+- [parseCursor](resolvers_UserTag_childTags.md#parsecursor)
+
 ## Variables
 
 ### childTags
@@ -16,4 +20,24 @@
 
 #### Defined in
 
-[src/resolvers/UserTag/childTags.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/resolvers/UserTag/childTags.ts#L12)
+[src/resolvers/UserTag/childTags.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/resolvers/UserTag/childTags.ts#L17)
+
+## Functions
+
+### parseCursor
+
+▸ **parseCursor**(`«destructured»`): [`ParseGraphQLConnectionCursorResult`](utilities_graphQLConnection_parseGraphQLConnectionArguments.md#parsegraphqlconnectioncursorresult)\<`string`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `«destructured»` | [`ParseGraphQLConnectionCursorArguments`](utilities_graphQLConnection_parseGraphQLConnectionArguments.md#parsegraphqlconnectioncursorarguments) & \{ `parentTagId`: `string` \| `ObjectId`  \} |
+
+#### Returns
+
+[`ParseGraphQLConnectionCursorResult`](utilities_graphQLConnection_parseGraphQLConnectionArguments.md#parsegraphqlconnectioncursorresult)\<`string`\>
+
+#### Defined in
+
+[src/resolvers/UserTag/childTags.ts:88](https://github.com/PalisadoesFoundation/talawa-api/blob/0deccac/src/resolvers/UserTag/childTags.ts#L88)
